@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/blas-base-matrix-orientations": "github:stdlib-js/blas-base-matrix-orientations#main",
-    "@stdlib/utils-object-inverse": "^0.2.2"
+    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.2",
