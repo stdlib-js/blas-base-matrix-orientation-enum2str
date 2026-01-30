@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-matrix-orientation-enum2str",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the matrix orientation string associated with a matrix orientation enumeration constant.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/blas-base-matrix-orientations": "github:stdlib-js/blas-base-matrix-orientations#main",
+    "@stdlib/blas-base-matrix-orientations": "^0.1.0",
     "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/blas-base-matrix-orientation-str2enum": "github:stdlib-js/blas-base-matrix-orientation-str2enum#main",
+    "@stdlib/blas-base-matrix-orientation-str2enum": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
@@ -78,7 +78,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
